@@ -1,0 +1,5 @@
+outs:
+- md5: e4517eaf92bca183b796d7e29e190201
+  size: 1591
+  hash: md5
+  path: best_model_trained.pkl
