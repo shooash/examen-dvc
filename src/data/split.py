@@ -19,7 +19,7 @@ for h in logger.handlers:
 logger.setLevel(logging.DEBUG)
 
 def main():
-    source_file = os.path.abspath(os.path.join(DIR_DATA_SOURCE, 'clean_data.csv'))
+    source_file = os.path.abspath(os.path.join(DIR_DATA_SOURCE, 'raw.csv'))
     if not os.path.isfile(source_file):
         raise ValueError(f'Inexisting path for data source: {source_file}.')
     if not os.path.isdir(DIR_DATA_PROCESSED):

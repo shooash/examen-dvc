@@ -54,18 +54,12 @@ def save_model(model : object):
     
 def main():
     X_train_path = get_processed('X_train_scaled.csv')
-    # X_test_path = get_processed('X_test_scaled.csv') # To use for multimodel custom grid implementation
     y_train_path = get_processed('y_train.csv')
-    # y_test = get_processed('y_test.csv')
     
     if not os.path.isfile(X_train_path):
         raise ValueError(f'Scaled train dataset does not exist: {X_train_path}')
-    # if not os.path.isfile(X_test_path):
-    #     raise ValueError(f'Scaled test dataset does not exist: {X_test_path}')
     if not os.path.isfile(y_train_path):
         raise ValueError(f'Train target dataset does not exist: {y_train_path}')
-    # if not os.path.isfile(y_test):
-    #     raise ValueError(f'Test target dataset does not exist: {y_test}')
     logger.debug('Loading data...')
     X_train = np.loadtxt(X_train_path, delimiter=',')
     y_train = np.loadtxt(y_train_path, delimiter=',', skiprows=1)
