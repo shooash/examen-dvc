@@ -48,3 +48,38 @@ Data split completed. CSV files saved to C:\Users\ashin\Documents\Dev\examen-dvc
 2025-08-04 20:36:53,140 Predictions saved to C:\Users\ashin\Documents\Dev\examen-dvc\data\prediction.csv
 2025-08-04 20:36:53,140 Calculating and saving metrics...
 2025-08-04 20:36:53,142 Best model used for prediction, results and scores saved.
+2025-08-04 21:23:21,267 Loading data from file C:\Users\ashin\Documents\Dev\examen-dvc\data\raw\raw.csv.
+2025-08-04 21:23:21,277 Splitting data.
+2025-08-04 21:23:21,311 Data split completed. CSV files saved to C:\Users\ashin\Documents\Dev\examen-dvc\data\processed
+2025-08-04 21:24:23,430 Loading data from file C:\Users\ashin\Documents\Dev\examen-dvc\data\raw\raw.csv.
+2025-08-04 21:24:23,435 Splitting data.
+2025-08-04 21:24:23,470 Data split completed. CSV files saved to C:\Users\ashin\Documents\Dev\examen-dvc\data\processed
+2025-08-04 21:24:25,389 Loading train dataset C:\Users\ashin\Documents\Dev\examen-dvc\data\processed\X_train.csv.
+2025-08-04 21:24:25,411 Loading test dataset C:\Users\ashin\Documents\Dev\examen-dvc\data\processed\X_test.csv.
+2025-08-04 21:24:25,427 Scaling data...
+2025-08-04 21:24:25,433 Saving data...
+2025-08-04 21:24:25,453 Data transformation completed. Files saved to C:\Users\ashin\Documents\Dev\examen-dvc\data\processed\X_train_scaled.csv and C:\Users\ashin\Documents\Dev\examen-dvc\data\processed\X_test_scaled.csv
+2025-08-04 21:24:27,163 Loading data...
+2025-08-04 21:24:27,374 Best scored model: BayesianRidge.
+2025-08-04 21:24:27,374 Best scored params: {'alpha_1': 0.001, 'alpha_2': 1e-06, 'lambda_1': 1e-06, 'lambda_2': 0.001}.
+2025-08-04 21:24:27,375 Best score: 0.14096262326976297.
+2025-08-04 21:24:27,375 Saving BayesianRidge model to C:\Users\ashin\Documents\Dev\examen-dvc\models\best_model.pkl
+2025-08-04 21:24:27,376 Best model found and saved.
+2025-08-04 21:24:28,305 Loading data...
+2025-08-04 21:24:28,313 Loadin model from C:\Users\ashin\Documents\Dev\examen-dvc\models\best_model.pkl
+2025-08-04 21:24:29,376 Saving BayesianRidge model to C:\Users\ashin\Documents\Dev\examen-dvc\models\best_model_trained.pkl
+2025-08-04 21:24:29,376 Best model trained and saved.
+2025-08-04 21:24:31,217 Loading data...
+2025-08-04 21:24:31,229 Loadin model from C:\Users\ashin\Documents\Dev\examen-dvc\models\best_model_trained.pkl
+2025-08-04 21:24:31,287 Predicting...
+2025-08-04 21:24:31,288 Processing and saving prediction with original data.
+2025-08-04 21:24:31,290 Predictions saved to C:\Users\ashin\Documents\Dev\examen-dvc\data\prediction.csv
+2025-08-04 21:24:31,290 Calculating and saving metrics...
+2025-08-04 21:24:31,301 Best model used for prediction, results and scores saved.
+2025-08-04 21:24:55,736 Loading data...
+2025-08-04 21:24:55,738 Loadin model from C:\Users\ashin\Documents\Dev\examen-dvc\models\best_model_trained.pkl
+2025-08-04 21:24:55,795 Predicting...
+2025-08-04 21:24:55,796 Processing and saving prediction with original data.
+2025-08-04 21:24:55,807 Predictions saved to C:\Users\ashin\Documents\Dev\examen-dvc\data\prediction.csv
+2025-08-04 21:24:55,807 Calculating and saving metrics...
+2025-08-04 21:24:55,810 Best model used for prediction, results and scores saved.
